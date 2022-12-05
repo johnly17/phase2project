@@ -2,7 +2,8 @@
 
 function NavBar() { 
     return (
-        <div>
+        <div className="navBar">
+            <div>🔥</div>
             <ul>
                 <li>Home</li>
                 <li>Favorites</li>
