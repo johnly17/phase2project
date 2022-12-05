@@ -13,3 +13,17 @@ Use a json-server to create a RESTful API for your backend and make both a GET a
     Upon return of json from your POST request, a state update by a setState function is required!
 
 Add some styling: you're encouraged to write your CSS from scratch, either by using styled components Links to an external site.or writing CSS files and using id/className to style your elements. You can also incorporate a UI framework (like React Bootstrap Links to an external site., Semantic UI Links to an external site., or Material UI Links to an external site.) if you prefer.
+
+
+
+
+
+clicking "Search" loads new page with all the shows and allows you to search from those the shows
+
+click show that loads Show page that shows description
+
+add "Watch Later" button that adds show to watch later list
+
+clicking Watch Later loads new page that shows watch later shows
+
+add delete button to Watch later shows 
