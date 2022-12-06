@@ -4,12 +4,14 @@ import ShowContainer from "./ShowContainer"
 import WatchLater from "./WatchLater"
 import SearchPage from "./SearchPage";
 import { Route, Switch } from 'react-router-dom';
-import Search from "./Search";
+
 
 function App() {
 
   const [shows, setShows] = useState([])
-  const [search, setSearch] = useState(" ") 
+  const [search, setSearch] = useState("")
+  console.log(shows)
+
 
   useEffect(() => {
     fetch("https://api.tvmaze.com/shows?page=1")
@@ -17,13 +19,10 @@ function App() {
       .then(data => setShows(data))
   }, [])
 
-  const trendTenShows = shows.splice(0, 10)
-
   const filteredOtherShows = shows.filter(show => {
     return show.name.toLowerCase().includes(search.toLowerCase())
   })
 
-  console.log(filteredOtherShows)
 
   // function onSearchChange(e){
   //   setSearch(e.target.value)
@@ -33,10 +32,23 @@ function App() {
   return (
     <div className="App">
       <h1>TV SHOW FINDER</h1>
-      <Search search={search} setSearch={setSearch} />
       <NavBar />
+      <Switch >
 
-      <ShowContainer trendTenShows={trendTenShows} shows={filteredOtherShows} />
+        <Route exact path="/">
+          <ShowContainer shows={shows}/>
+        </Route>
+
+        <Route path="/search">
+          <SearchPage
+            search={search}
+            setSearch={setSearch}
+            shows={filteredOtherShows}
+          />
+        </Route>
+
+
+      </Switch>
 
     </div >
   );
