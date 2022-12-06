@@ -29,3 +29,6 @@ Add some styling: you're encouraged to write your CSS from scratch, either by us
 -add "Watch Later" button that adds show to watch later list
 -clicking Watch Later loads new page that shows watch later shows
 -add delete button to Watch later shows 
+
+
+-figure out how to render new page routes without refreshing

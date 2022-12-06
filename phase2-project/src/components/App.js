@@ -31,7 +31,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>TV SHOW FINDER</h1>
       <NavBar />
       <Switch >
 
@@ -46,6 +45,7 @@ function App() {
             shows={filteredOtherShows}
           />
         </Route>
+
 
 
       </Switch>
