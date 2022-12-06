@@ -44,6 +44,10 @@ function App() {
           <ShowDetail />
         </Route>
 
+        <Route exact path="/watchlist">
+          <WatchLater />
+        </Route>
+
       </Switch>
 
     </div >
