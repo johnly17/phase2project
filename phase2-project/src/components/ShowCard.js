@@ -8,6 +8,9 @@ function ShowCard({ title, image, summary }) {
                 <img src={image} alt={title} className="ui image" />
                 <h1>{title}</h1>
             </div>
+            <div className="fav-btn">
+                <button className="watch-later">Watch Later</button>
+            </div>
         </Card>
 
     )

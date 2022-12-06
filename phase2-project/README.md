@@ -18,12 +18,14 @@ Add some styling: you're encouraged to write your CSS from scratch, either by us
 
 
 
-clicking "Search" loads new page with all the shows and allows you to search from those the shows
+-clicking "Search" loads new page with all the shows and allows you to search from those the shows
+-be able to filter by page of shows from API
+-add pages button to render pages of shows to search all shows
 
-click show that loads Show page that shows description
 
-add "Watch Later" button that adds show to watch later list
+-click show that loads Show page that shows description
 
-clicking Watch Later loads new page that shows watch later shows
 
-add delete button to Watch later shows 
+-add "Watch Later" button that adds show to watch later list
+-clicking Watch Later loads new page that shows watch later shows
+-add delete button to Watch later shows 
