@@ -22,6 +22,7 @@ function ShowCard({ title, image, summary, id }) {
            .then(data => console.log(data))
     }
 
+
     return (
         <Card>
             <div className="show-card">
@@ -41,6 +42,7 @@ function ShowCard({ title, image, summary, id }) {
                 onClick={handleWatchLater}
                 >Watch Later</button>
             </div>
+
         </Card>
 
     )

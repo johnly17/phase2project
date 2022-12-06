@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
-import ShowCard from './ShowCard'
 import { Card } from "semantic-ui-react";
+import WatchLaterCard from './WatchLaterCard';
 
 function WatchLater() {
 
@@ -13,17 +13,28 @@ function WatchLater() {
         .then(shows => setWatchLater(shows))
     }, [])
 
+
     //need WatchLaterCard instead to render delete button
-    const watchLaterDiv = watchLater.map(shows => {
+    const watchLaterDiv = watchLater.map(show => {
         return (
-            <ShowCard 
-                key={shows.id}
-                id={shows.id}
-                title={shows.title}
-                image={shows.image}
+            <WatchLaterCard
+                key={show.id}
+                id={show.id}
+                title={show.title}
+                image={show.image}
+                onDelete={updateDelete}
+               show={show}
             />
         )
     })
+
+    console.log(watchLater)
+
+    function updateDelete(deletedShow){
+        const updatedWatchList = watchLater.filter(show => show.id !== deletedShow.id)
+        setWatchLater(updatedWatchList)
+    }
+
     
     return (
         <div>
