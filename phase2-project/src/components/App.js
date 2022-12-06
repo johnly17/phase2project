@@ -4,17 +4,17 @@ import ShowContainer from "./ShowContainer"
 import WatchLater from "./WatchLater"
 import SearchPage from "./SearchPage";
 import { Route, Switch } from 'react-router-dom';
-
+import ShowDetail from "./ShowDetail";
 
 function App() {
 
   const [shows, setShows] = useState([])
   const [search, setSearch] = useState("")
-  console.log(shows)
+
 
 
   useEffect(() => {
-    fetch("https://api.tvmaze.com/shows?page=1")
+    fetch("https://api.tvmaze.com/shows")
       .then(res => res.json())
       .then(data => setShows(data))
   }, [])
@@ -22,12 +22,6 @@ function App() {
   const filteredOtherShows = shows.filter(show => {
     return show.name.toLowerCase().includes(search.toLowerCase())
   })
-
-
-  // function onSearchChange(e){
-  //   setSearch(e.target.value)
-  // }
-
 
   return (
     <div className="App">
@@ -46,7 +40,9 @@ function App() {
           />
         </Route>
 
-
+        <Route path="/show/:id">
+          <ShowDetail />
+        </Route>
 
       </Switch>
 

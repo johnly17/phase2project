@@ -4,7 +4,9 @@ function NavBar() {
     return (
         <div className="navBar">
             <div className="title">
-                <h1>TV SHOW FINDER</h1>
+                <Link to="/" >
+                    <h1>TV SHOW FINDER</h1>
+                </Link>
             </div>
             <div className='routes'>
                 <Link to="/" className="button">

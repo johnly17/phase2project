@@ -23,7 +23,8 @@ Add some styling: you're encouraged to write your CSS from scratch, either by us
 -add pages button to render pages of shows to search all shows
 
 
--click show that loads Show page that shows description
+
+-click show that loads Show page that shows description (DONE)
 
 
 -add "Watch Later" button that adds show to watch later list
@@ -31,4 +32,4 @@ Add some styling: you're encouraged to write your CSS from scratch, either by us
 -add delete button to Watch later shows 
 
 
--figure out how to render new page routes without refreshing
+-figure out how to render new page routes without refreshing (DONE)
