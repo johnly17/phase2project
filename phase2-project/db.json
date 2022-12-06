@@ -1,0 +1,14 @@
+{
+  "shows": [
+    {
+      "id": 1,
+      "title": "Under the Dome",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/81/202627.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Arrow",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/213/534017.jpg"
+    }
+  ]
+}
