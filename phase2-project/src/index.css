@@ -12,6 +12,10 @@
     margin: 0 0 3rem 0;
 }
 
+.welcome-msg {
+    font-size: 3rem;
+}
+
 .routes {
     display: flex;
     gap: 3rem;

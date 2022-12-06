@@ -22,7 +22,7 @@ function ShowContainer({ shows }) {
     return (
         <div>
             <div className="welcome">
-                <h1>Welcome to TV Show Finder!</h1>
+                <h1 className="welcome-msg">Welcome to TV Show Finder!</h1>
             </div>
             <h1>Recommended Shows</h1>
             <Card.Group itemsPerRow={5}>
