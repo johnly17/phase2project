@@ -1,14 +1,40 @@
 {
   "shows": [
     {
-      "id": 1,
-      "title": "Under the Dome",
-      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/81/202627.jpg"
+      "id": 2,
+      "title": "Person of Interest",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/163/407679.jpg",
+      "genres": [
+        "Action"
+      ],
+      "link": "http://www.cbs.com/shows/person_of_interest/"
     },
     {
-      "id": 4,
-      "title": "Arrow",
-      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/213/534017.jpg"
+      "id": 13,
+      "title": "The Flash",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/383/957712.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "link": "http://www.cwtv.com/shows/the-flash/"
+    },
+    {
+      "id": 12,
+      "title": "Lost Girl",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/0/137.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "link": "http://www.showcase.ca/lostgirl"
+    },
+    {
+      "id": 11,
+      "title": "Gotham",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/189/474715.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "link": "http://www.fox.com/gotham"
     }
   ]
 }

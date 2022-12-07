@@ -6,6 +6,7 @@ import {useHistory} from "react-router-dom"
 function SearchPage({search, setSearch, shows}) {
 
     const searchShowsDiv = shows.map(show => {
+
         return (
             <ShowCard
                 key={show.id}
@@ -13,15 +14,12 @@ function SearchPage({search, setSearch, shows}) {
                 title={show.name}
                 image={show.image.medium}
                 summary={show.summary}
+                genre={show.genres}
             />
         )
     })
 
-    const history = useHistory()
-
-    function goBack() {
-        history.push("/search")
-    }
+   
 
     return (
         <div>

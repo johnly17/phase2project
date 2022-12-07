@@ -1,10 +1,10 @@
 import { Card } from "semantic-ui-react";
 import { Link } from "react-router-dom";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 
 
-function ShowCard({ title, image, summary, id }) {
+function ShowCard({ title, image, genre, id, link }) {
 
     function handleWatchLater() {
         fetch("http://localhost:4000/shows", {
@@ -13,34 +13,41 @@ function ShowCard({ title, image, summary, id }) {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                    "id": id,
-                    "title": title,
-                    "image": image,
-              })
+                "id": id,
+                "title": title,
+                "image": image,
+                "genres": [genre[0]],
+                "link": link
+            })
         })
-           .then(response => response.json())
-           .then(data => console.log(data))
+            .then(response => response.json())
+            .then(data => console.log(data))
     }
 
 
     return (
-        <Card>
-            <div className="show-card">
-            <Link to={`/show/${id}`}>
-                <img 
-                src={image} 
-                alt={title} 
-                className="ui image" 
-                /></Link>
-                
-                <h1>{title}</h1>
-            </div>
+        <Card >
+            <div>
+                <Link to={`/show/${id}`}>
+                    <img
+                        src={image}
+                        alt={title}
+                        className="ui-image"
+                    /></Link>
 
-            <div className="fav-btn">
-                <button 
-                className="watch-later"
-                onClick={handleWatchLater}
-                >Watch Later</button>
+                <h1 className="card-title">{title}</h1>
+                <p>Genre: {genre[0]}</p>
+            </div>
+            {/* <div className="fav-btn">
+                <button
+                    className="watch-later"
+                    >Watch Later</button>
+            </div> */}
+            <div class="ui bottom attached button"
+            onClick={handleWatchLater}
+            >
+                <i class="add icon"></i>
+                Watch Later
             </div>
 
         </Card>

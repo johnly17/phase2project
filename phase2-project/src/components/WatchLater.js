@@ -23,7 +23,8 @@ function WatchLater() {
                 title={show.title}
                 image={show.image}
                 onDelete={updateDelete}
-               show={show}
+                show={show}
+                genre={show.genres}
             />
         )
     })

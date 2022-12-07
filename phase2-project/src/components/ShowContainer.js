@@ -14,6 +14,8 @@ function ShowContainer({ shows }) {
         id={show.id}
         title={show.name}
         image={show.image.medium}
+        genre={show.genres}
+        link={show.officialSite}
         />
     })
  

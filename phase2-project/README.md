@@ -22,7 +22,9 @@ Add some styling: you're encouraged to write your CSS from scratch, either by us
 -be able to filter by page of shows from API
 -add pages button to render pages of shows to search all shows
 
+-be able to filter from genre as well
 
+-add more details to ShowDetails card
 
 -click show that loads Show page that shows description (DONE)
 

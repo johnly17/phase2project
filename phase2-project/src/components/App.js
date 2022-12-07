@@ -41,7 +41,7 @@ function App() {
         </Route>
 
         <Route path="/show/:id">
-          <ShowDetail />
+          <ShowDetail shows={shows}/>
         </Route>
 
         <Route exact path="/watchlist">

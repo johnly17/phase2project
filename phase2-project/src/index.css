@@ -2,6 +2,7 @@
 .App {
     text-align: center;
     margin: 0;
+
 }
 
 .navBar {
@@ -16,23 +17,40 @@
     font-size: 3rem;
 }
 
+
+
 .routes {
     display: flex;
     gap: 3rem;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    text-align: center;
-    gap: 3rem;
+.show-card {
+    border-radius: 10px;
 }
 
-img {
+.ui-image {
     width: 100%;
-    
+}
 
+.detail-card {
+    display: flex;
+    margin: 0;
+}
+
+.detail-image {
+    height: 80%
+}
+
+.detail-text-div {
+    margin: 3.3rem;
+}
+
+.detail-text-div p {
+    font-size: 1.5rem;
+}
+
+.detail-title {
+    font-size: 5rem;
 }
 
 .search {
@@ -51,3 +69,24 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+nav {
+    background-color: cornsilk;
+  }
+
+nav a {
+    display: inline-block;
+    margin: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: firebrick;
+    border-bottom: 2px solid firebrick;
+    transition: 0.1s;
+  }
+  
+  nav a:hover,
+  nav a:active {
+    color: tomato;
+    border-bottom: 2px solid tomato;
+  }
+
