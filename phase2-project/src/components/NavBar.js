@@ -15,7 +15,7 @@ function NavBar() {
                 <NavLink exact to="/search" className="button">
                     <h1>Search Shows!</h1>
                 </NavLink>
-                <NavLink exact to="watchlist" className='button'>
+                <NavLink exact to="/watchlist" className='button'>
                     <h1>Watch List!</h1>
                 </NavLink>
             </div>
