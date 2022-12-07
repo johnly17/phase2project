@@ -6,6 +6,7 @@ import SearchPage from "./SearchPage";
 import { Route, Switch } from 'react-router-dom';
 import ShowDetail from "./ShowDetail";
 
+
 function App() {
 
   const [shows, setShows] = useState([])

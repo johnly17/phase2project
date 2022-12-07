@@ -1,7 +1,6 @@
 import Search from "./Search";
 import ShowCard from "./ShowCard";
 import { Card } from "semantic-ui-react";
-import {useHistory} from "react-router-dom"
 import {useState, useEffect} from 'react'
 
 function SearchPage({search, setSearch, shows}) {
@@ -20,6 +19,7 @@ function SearchPage({search, setSearch, shows}) {
                 image={show.image.medium}
                 summary={show.summary}
                 genre={show.genres}
+                link={show.officialSite}
             />
         )
     })
@@ -29,7 +29,10 @@ function SearchPage({search, setSearch, shows}) {
     return (
         <div>
             <Search search={search} setSearch={setSearch}/>
-            <Card.Group itemsPerRow={5}>
+            <Card.Group 
+            itemsPerRow={5}
+            minWidth={10}
+            >
             {searchShowsDiv}
             </Card.Group>
         </div>

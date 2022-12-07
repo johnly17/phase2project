@@ -7,6 +7,7 @@ import {useHistory} from "react-router-dom"
 function ShowContainer({ shows }) {
 
     const recommendedShows = shows.splice(0, 10)
+    console.log(shows)
 
     const recommendedShowsDiv = recommendedShows.map(show => {
         return <ShowCard 
@@ -25,6 +26,8 @@ function ShowContainer({ shows }) {
         <div>
             <div className="welcome">
                 <h1 className="welcome-msg">Welcome to TV Show Finder!</h1>
+                <p>We have everything, except Peaky Blinders</p>
+                
             </div>
             <h1>Recommended Shows</h1>
             <Card.Group itemsPerRow={5}>

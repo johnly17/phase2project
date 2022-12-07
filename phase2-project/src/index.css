@@ -1,9 +1,12 @@
 
 .App {
+    
     text-align: center;
     margin: 0;
-
+    background:  whitesmoke;
 }
+
+
 
 .navBar {
     display: flex;
@@ -11,10 +14,22 @@
     align-items: center;
     padding: 0 2rem;
     margin: 0 0 3rem 0;
+    
+}
+
+.welcome {
+    background: firebrick;
+    padding: 2rem;
 }
 
 .welcome-msg {
     font-size: 3rem;
+    font-family:'Nunito', sans-serif;
+}
+
+.watch-later-header{
+    font-size: 3rem;
+    font-family:'Nunito', sans-serif;
 }
 
 .routes {
@@ -22,9 +37,6 @@
     gap: 3rem;
 }
 
-.show-card {
-    border-radius: 10px;
-}
 
 .ui-image {
     width: 100%;
@@ -55,15 +67,54 @@
     font-size: 5rem;
 }
 
+.detail-buttons button{
+    margin: 0 1rem;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.watch-btn {
+    transition-duration: 0.4s;
+}
+
+.watch-btn:hover {
+    transform: scale(1.1);
+    background-color: #00FFFF;
+}
+
+.back-btn {
+    transition-duration: 0.4s;
+}
+
+.back-btn:hover {
+    transform: scale(1.1);
+    background-color: #3CB371;
+}
+
+
+.detail-buttons a {
+    text-decoration: none;
+    color: black;
+}
+
 .search {
-    display: flex;
     justify-content: center;
     gap: .5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.search input {
+    width: 50%;
+    border-radius: 15px;
 }
 
 .search h2 {
     justify-content: center;
     align-items: center;
+    font-family:'Nunito', sans-serif;
 }
 
 .search input {
@@ -73,6 +124,7 @@
 }
 
 nav {
+    font-family:'Nunito', sans-serif;
     background-color: cornsilk;
   }
 
@@ -90,5 +142,10 @@ nav a {
   nav a:active {
     color: tomato;
     border-bottom: 2px solid tomato;
+  }
+
+  nav a:hover {
+    transform: scale(1.1);
+    color: black;
   }
 

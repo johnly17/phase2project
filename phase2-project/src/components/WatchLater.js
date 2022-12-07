@@ -38,6 +38,7 @@ function WatchLater() {
     
     return (
         <div>
+        <h1 className='watch-later-header'>Enjoy Binging!</h1>
         <Card.Group itemsPerRow={4}>
             {watchLaterDiv}
         </Card.Group>

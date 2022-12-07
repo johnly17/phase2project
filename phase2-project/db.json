@@ -1,13 +1,13 @@
 {
   "shows": [
     {
-      "id": 2,
-      "title": "Person of Interest",
-      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/163/407679.jpg",
+      "id": 1,
+      "title": "Under the Dome",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/81/202627.jpg",
       "genres": [
-        "Action"
+        "Drama"
       ],
-      "link": "http://www.cbs.com/shows/person_of_interest/"
+      "link": "http://www.cbs.com/shows/under-the-dome/"
     },
     {
       "id": 3,
@@ -26,6 +26,15 @@
         "Drama"
       ],
       "link": "http://www.cwtv.com/shows/arrow"
+    },
+    {
+      "id": 5,
+      "title": "True Detective",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/178/445621.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "link": "http://www.hbo.com/true-detective"
     }
   ]
 }

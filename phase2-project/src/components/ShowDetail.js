@@ -22,7 +22,7 @@ function ShowDetail({ shows }) {
         history.push("/")
     }
 
-    console.log(showDetails.link)
+    console.log(showDetails)
 
 
     return (
@@ -37,10 +37,10 @@ function ShowDetail({ shows }) {
             <div className='detail-text-div'>
                 <h1 className='detail-title'>{showDetails?.name}</h1>
                 <p>{showDetails.summary?.replace(/(<([^>]+)>)/ig, '')}</p>
-                <p><a href={showDetails.link}>Watch Here</a></p>
-                <button
-                    onClick={goBack}
-                >Go Back</button>
+            <div className="detail-buttons">
+                <button className='watch-btn'><a href={showDetails.officialSite}>Watch Here</a></button>
+                <button className="back-btn" onClick={goBack}>Go Back</button>
+            </div>
             </div>
         </div>
     )

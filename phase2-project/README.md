@@ -24,7 +24,7 @@ Add some styling: you're encouraged to write your CSS from scratch, either by us
 
 -be able to filter from genre as well
 
--add more details to ShowDetails card (watch here button)
+-add more details to ShowDetails card (watch here button) (DONE)
 
 -click show that loads Show page that shows description (DONE)
 
@@ -36,4 +36,4 @@ Add some styling: you're encouraged to write your CSS from scratch, either by us
 
 -figure out how to render new page routes without refreshing (DONE)
 
--CSS
+-CSS (DONE)

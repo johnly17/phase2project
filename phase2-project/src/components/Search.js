@@ -7,10 +7,11 @@ function Search({search, setSearch}) {
 
     return (
         <div className="search">
-            <h2>Search a Show:</h2> 
+            <h2>Find a Show!</h2>
+            <p>(not peaky blinders...)</p>
             <input 
             type="text" 
- 
+            placeholder=" Search..."
             value={search}
             onChange={handleSearch}
             />
