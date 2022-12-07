@@ -20,7 +20,7 @@ function App() {
   }, [])
 
   const filteredOtherShows = shows.filter(show => {
-    return show.name.toLowerCase().includes(search.toLowerCase())
+    return show.name.toLowerCase().includes(search.toLowerCase()) 
   })
 
   return (
@@ -40,11 +40,11 @@ function App() {
           />
         </Route>
 
-        <Route path="/show/:id">
+        <Route  path="/show/:id">
           <ShowDetail shows={shows}/>
         </Route>
 
-        <Route exact path="/watchlist">
+        <Route  path="/watchlist">
           <WatchLater />
         </Route>
 

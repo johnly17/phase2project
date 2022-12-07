@@ -24,7 +24,7 @@ Add some styling: you're encouraged to write your CSS from scratch, either by us
 
 -be able to filter from genre as well
 
--add more details to ShowDetails card
+-add more details to ShowDetails card (watch here button)
 
 -click show that loads Show page that shows description (DONE)
 

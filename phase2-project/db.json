@@ -1,40 +1,12 @@
 {
   "shows": [
     {
-      "id": 2,
-      "title": "Person of Interest",
-      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/163/407679.jpg",
-      "genres": [
-        "Action"
-      ],
-      "link": "http://www.cbs.com/shows/person_of_interest/"
-    },
-    {
-      "id": 13,
-      "title": "The Flash",
-      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/383/957712.jpg",
+      "id": 3,
+      "title": "Bitten",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/0/15.jpg",
       "genres": [
         "Drama"
-      ],
-      "link": "http://www.cwtv.com/shows/the-flash/"
-    },
-    {
-      "id": 12,
-      "title": "Lost Girl",
-      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/0/137.jpg",
-      "genres": [
-        "Drama"
-      ],
-      "link": "http://www.showcase.ca/lostgirl"
-    },
-    {
-      "id": 11,
-      "title": "Gotham",
-      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/189/474715.jpg",
-      "genres": [
-        "Drama"
-      ],
-      "link": "http://www.fox.com/gotham"
+      ]
     }
   ]
 }

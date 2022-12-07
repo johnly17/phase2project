@@ -28,7 +28,7 @@ function ShowDetail({ shows }) {
             <div className='detail-img-div'>
                 <img
                     className='detail-image'
-                    src={showDetails.image?.original}
+                    src={showDetails.image?.medium}
                     alt='image'
                 />
             </div>
