@@ -29,7 +29,6 @@ function WatchLater() {
         )
     })
 
-    console.log(watchLater)
 
     function updateDelete(deletedShow){
         const updatedWatchList = watchLater.filter(show => show.id !== deletedShow.id)

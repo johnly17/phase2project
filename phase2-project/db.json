@@ -1,12 +1,31 @@
 {
   "shows": [
     {
+      "id": 2,
+      "title": "Person of Interest",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/163/407679.jpg",
+      "genres": [
+        "Action"
+      ],
+      "link": "http://www.cbs.com/shows/person_of_interest/"
+    },
+    {
       "id": 3,
       "title": "Bitten",
       "image": "https://static.tvmaze.com/uploads/images/medium_portrait/0/15.jpg",
       "genres": [
         "Drama"
-      ]
+      ],
+      "link": "http://bitten.space.ca/"
+    },
+    {
+      "id": 4,
+      "title": "Arrow",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/213/534017.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "link": "http://www.cwtv.com/shows/arrow"
     }
   ]
 }

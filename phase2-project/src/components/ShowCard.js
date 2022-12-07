@@ -1,6 +1,6 @@
 import { Card } from "semantic-ui-react";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+
 
 
 
