@@ -8,7 +8,6 @@ function Search({search, setSearch}) {
     return (
         <div className="search">
             <h2>Find a Show!</h2>
-            <p>(not peaky blinders...)</p>
             <input 
             type="text" 
             placeholder=" Search..."
