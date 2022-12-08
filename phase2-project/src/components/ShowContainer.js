@@ -37,11 +37,11 @@ function ShowContainer({ shows, setPage, page, isLoading }) {
         <div>
             <div className="welcome">
                 <h1 className="welcome-msg">Welcome to TV Show Finder!</h1>
-                <p>We have everything, except Peaky Blinders</p>
-                <button onClick={decreasePageChange} className="page-btns">↞</button>
-                <button onClick={increasePageChange} className="page-btns">↠</button>
+                <p></p>
             </div>
             <h1>Recommended Shows</h1>
+                <button onClick={decreasePageChange} className="page-btns">↞</button>
+                <button onClick={increasePageChange} className="page-btns">↠</button>
             {isLoading ? <h1>Loading...</h1> : null}
             <Card.Group itemsPerRow={5}>
                 {recommendedShowsDiv}

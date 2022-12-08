@@ -24,7 +24,7 @@ function App() {
         setShows(data)
         setIsLoading(false)
       })
-  }, [])
+  }, [page])
 
   const filteredOtherShows = shows.filter(show => {
     return show.name.toLowerCase().includes(search.toLowerCase()) 
