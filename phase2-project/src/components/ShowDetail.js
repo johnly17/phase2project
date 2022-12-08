@@ -31,6 +31,7 @@ function ShowDetail({ shows }) {
                 <img
                     className='detail-image'
                     src={showDetails.image?.medium}
+                    alt=""
                 />
             </div>
             <div className='detail-text-div'>
