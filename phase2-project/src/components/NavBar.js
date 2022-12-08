@@ -1,11 +1,11 @@
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function NavBar() {
     return (
         <nav className="navBar">
             <div className="title">
                 <NavLink to="/" >
-                    <h1><iframe src="https://giphy.com/embed/cXblnKXr2BQOaYnTni" width="40" height="40" frameBorder="0"></iframe> TV SHOW FINDER <iframe src="https://giphy.com/embed/cXblnKXr2BQOaYnTni" width="40" height="40" frameBorder="0"></iframe></h1>
+                    <h1><iframe src="https://giphy.com/embed/cXblnKXr2BQOaYnTni" width="40" height="40" frameBorder="0" title="gif"></iframe> TV SHOW FINDER <iframe src="https://giphy.com/embed/cXblnKXr2BQOaYnTni" width="40" height="40" frameBorder="0" title="other gif"></iframe></h1>
                 </NavLink>
             </div>
             <div className='routes'>
