@@ -1,10 +1,10 @@
 import Search from "./Search";
 import ShowCard from "./ShowCard";
 import { Card } from "semantic-ui-react";
-import {useState, useEffect} from 'react'
+
 
 function SearchPage({search, setSearch, shows}) {
-    const [searchShows, setSearchShows] = useState([])
+
 
 
 
