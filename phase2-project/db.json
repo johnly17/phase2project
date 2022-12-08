@@ -1,22 +1,31 @@
 {
   "shows": [
     {
-      "id": 13,
-      "title": "The Flash",
-      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/383/957712.jpg",
+      "id": 3,
+      "title": "Bitten",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/0/15.jpg",
       "genres": [
         "Drama"
       ],
-      "link": "http://www.cwtv.com/shows/the-flash/"
+      "link": "http://bitten.space.ca/"
     },
     {
-      "id": 15,
-      "title": "Constantine",
-      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/0/154.jpg",
+      "id": 4,
+      "title": "Arrow",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/213/534017.jpg",
       "genres": [
         "Drama"
       ],
-      "link": "https://www.nbc.com/constantine"
+      "link": "http://www.cwtv.com/shows/arrow"
+    },
+    {
+      "id": 5,
+      "title": "True Detective",
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/178/445621.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "link": "http://www.hbo.com/true-detective"
     }
   ]
 }
