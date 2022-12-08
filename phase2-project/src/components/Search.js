@@ -15,6 +15,7 @@ function Search({search, setSearch}) {
             value={search}
             onChange={handleSearch}
             />
+            
         </div>
     )
 

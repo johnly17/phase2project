@@ -11,13 +11,19 @@ function App() {
 
   const [shows, setShows] = useState([])
   const [search, setSearch] = useState("")
+  const [page, setPage] = useState(0)
+  const [isLoading, setIsLoading] = useState(false)
 
 
 
   useEffect(() => {
-    fetch("https://api.tvmaze.com/shows")
+    setIsLoading(true)
+    fetch(`https://api.tvmaze.com/shows?page=${page}`)
       .then(res => res.json())
-      .then(data => setShows(data))
+      .then(data => {
+        setShows(data)
+        setIsLoading(false)
+      })
   }, [])
 
   const filteredOtherShows = shows.filter(show => {
@@ -30,7 +36,7 @@ function App() {
       <Switch >
 
         <Route exact path="/">
-          <ShowContainer shows={shows}/>
+          <ShowContainer shows={shows} setPage={setPage} page={page} isLoading={isLoading}/>
         </Route>
 
         <Route path="/search">

@@ -3,7 +3,7 @@ import ShowCard from "./ShowCard";
 import { Card } from "semantic-ui-react";
 
 
-function SearchPage({search, setSearch, shows}) {
+function SearchPage({search, setSearch, shows }) {
 
 
 
